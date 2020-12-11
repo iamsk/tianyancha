@@ -59,9 +59,11 @@ if __name__ == '__main__':
     t = Tianyancha('')
     for k, v in t.api_mappings.items():
         print('#####{}'.format(v['name']))
-        print('\t*', 'method: ', k)
+        print('\n')
+        print('*', 'method: ', k)
         for kk, vv in v.items():
-            print('\t*', kk, vv)
+            print('*', kk, vv)
+        print('\n')
     # print(t.search(word='气味图书馆'))
     # print(len(t.methods))
     # print(t.methods)
