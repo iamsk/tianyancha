@@ -1,10 +1,14 @@
 import requests
+import json
 
 
 class Tianyancha(object):
     def __init__(self, token):
-        self.base_url = 'http://open.api.tianyancha.com/services/open'
+        self.base_url = 'http://open.api.tianyancha.com/services/open/'
         self.token = token
+        self.api_mappings = self.gen_api_mappings()
+        self.methods = [k for k in self.api_mappings.keys()]
+        self.gen_methods()
 
     def get(self, path, payload):
         url = self.base_url + path
@@ -13,4 +17,44 @@ class Tianyancha(object):
         return response.json()
 
     def search(self, word):
-        return self.get('/search/2.0', {'word': word})
+        # replaced with generated method, but works the same
+        return self.get('search/2.0', {'word': word})
+
+    @classmethod
+    def gen_api_mappings(cls):
+        # from https://open.tianyancha.com/api_tool
+        f = open('apilist.json')
+        data = json.load(f)
+        mappings = {}
+        for sub in data:
+            items = sub['children']
+            for item in items:
+                name = item['data']['fname']
+                desc = item['data']['fdesc']
+                path = item['data']['openUrl'].replace('/services/open/', '')
+                method = path.replace('/2.0', '').replace('/', '_')
+                params = json.loads(item['data']['requestParam']).keys()
+                mappings[method] = {'name': name, 'desc': desc, 'path': path, 'params': [k for k in params]}
+        return mappings
+
+    def gen_methods(self):
+        for k, v in self.api_mappings.items():
+            self.add_method(k, v)
+
+    def add_method(self, k, v):
+        def inner(**payload):
+            return self.get(v['path'], payload)
+
+        inner.__name__ = k
+        inner.__doc__ = v['name']
+        inner.__desc__ = v['desc']
+        inner.__params__ = v['params']
+        setattr(self, inner.__name__, inner)
+
+
+if __name__ == '__main__':
+    t = Tianyancha('')
+    # print(t.search(word='气味图书馆'))
+    print(len(t.methods))
+    print(t.methods)
+    # print(json.dumps(t.api_mappings, indent=4, sort_keys=True))
