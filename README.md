@@ -10,6 +10,8 @@ pip install tianyancha
 
 ## Usage
 
+All API supported! please visit **[Supported methods](API.md)** for more information!
+
 ```python
 from tianyancha import Tianyancha
 token = "TOKEN"
@@ -62,13 +64,20 @@ ret = tyc.search(word)
 
 ## More usages
 
-
 ```python
-ret = tyc.get('/search/2.0', {'word': word})
+ret = tyc.get('search/2.0', {'word': word})
 ```
-
-API Mappings : https://open.tianyancha.com/api_list
 
 ## Tests
 
 just run `pytest`
+
+## Changelog
+
+* 2020-12-11 0.1.2 path bugfix and generate documents for all methods 
+* 2020-12-11 0.1.1 support all methods
+* 2020-12-11 0.1.0 support basic search for tianyancha
+
+## Refs
+
+Official API Document: https://open.tianyancha.com/api_list

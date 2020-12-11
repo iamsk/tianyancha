@@ -1,5 +1,7 @@
+import os
 import requests
 import json
+import pathlib
 
 
 class Tianyancha(object):
@@ -23,7 +25,8 @@ class Tianyancha(object):
     @classmethod
     def gen_api_mappings(cls):
         # from https://open.tianyancha.com/api_tool
-        f = open('apilist.json')
+        file_name = os.path.join(pathlib.Path(__file__).parent.absolute(), 'apilist.json')
+        f = open(file_name)
         data = json.load(f)
         mappings = {}
         for sub in data:
@@ -54,7 +57,12 @@ class Tianyancha(object):
 
 if __name__ == '__main__':
     t = Tianyancha('')
+    for k, v in t.api_mappings.items():
+        print('#####{}'.format(v['name']))
+        print('\t*', 'method: ', k)
+        for kk, vv in v.items():
+            print('\t*', kk, vv)
     # print(t.search(word='气味图书馆'))
-    print(len(t.methods))
-    print(t.methods)
+    # print(len(t.methods))
+    # print(t.methods)
     # print(json.dumps(t.api_mappings, indent=4, sort_keys=True))
