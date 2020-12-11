@@ -58,7 +58,7 @@ class Tianyancha(object):
 if __name__ == '__main__':
     t = Tianyancha('')
     for k, v in t.api_mappings.items():
-        print('#####{}'.format(v['name']))
+        print('#### {}'.format(v['name']))
         print('\n')
         print('*', 'method: ', k)
         for kk, vv in v.items():

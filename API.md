@@ -1,4 +1,4 @@
-#####企业基本信息
+#### 企业基本信息
 
 
 * method:  ic_baseinfo
@@ -8,7 +8,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业基本信息（含企业联系方式）
+#### 企业基本信息（含企业联系方式）
 
 
 * method:  ic_baseinfoV2
@@ -18,7 +18,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业基本信息（含主要人员）
+#### 企业基本信息（含主要人员）
 
 
 * method:  ic_baseinfoV3
@@ -28,7 +28,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####特殊企业基本信息
+#### 特殊企业基本信息
 
 
 * method:  _services_v4_open_xgbaseinfoV2
@@ -38,7 +38,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业三要素验证
+#### 企业三要素验证
 
 
 * method:  ic_verify
@@ -48,7 +48,7 @@
 * params ['name', 'code', 'legalPersonName']
 
 
-#####工商快照
+#### 工商快照
 
 
 * method:  ic_snapshot
@@ -58,7 +58,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####企业类型
+#### 企业类型
 
 
 * method:  ic_companyType
@@ -68,7 +68,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####企业联系方式
+#### 企业联系方式
 
 
 * method:  ic_contact
@@ -78,7 +78,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####主要人员
+#### 主要人员
 
 
 * method:  ic_staff
@@ -88,7 +88,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史主要人员
+#### 历史主要人员
 
 
 * method:  hi_members
@@ -98,7 +98,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业股东
+#### 企业股东
 
 
 * method:  ic_holder
@@ -108,7 +108,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史股东信息
+#### 历史股东信息
 
 
 * method:  hi_holder
@@ -118,7 +118,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####公司公示-股东出资
+#### 公司公示-股东出资
 
 
 * method:  ic_holderList
@@ -128,7 +128,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####公司公示-股权变更
+#### 公司公示-股权变更
 
 
 * method:  ic_holderChange
@@ -138,7 +138,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####对外投资
+#### 对外投资
 
 
 * method:  ic_inverst
@@ -148,7 +148,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史对外投资
+#### 历史对外投资
 
 
 * method:  hi_invest
@@ -158,7 +158,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####分支机构
+#### 分支机构
 
 
 * method:  ic_branch
@@ -168,7 +168,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####总公司
+#### 总公司
 
 
 * method:  ic_parentCompany
@@ -178,7 +178,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业年报
+#### 企业年报
 
 
 * method:  ic_annualreport
@@ -188,7 +188,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####变更记录
+#### 变更记录
 
 
 * method:  ic_changeinfo
@@ -198,7 +198,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史工商信息
+#### 历史工商信息
 
 
 * method:  hi_ic
@@ -208,7 +208,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####司法解析
+#### 司法解析
 
 
 * method:  jr_judicialCase
@@ -218,7 +218,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####法律诉讼
+#### 法律诉讼
 
 
 * method:  jr_lawSuit
@@ -228,7 +228,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史法律诉讼
+#### 历史法律诉讼
 
 
 * method:  hi_lawsuit
@@ -238,7 +238,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####开庭公告
+#### 开庭公告
 
 
 * method:  jr_ktannouncement
@@ -248,7 +248,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史开庭公告
+#### 历史开庭公告
 
 
 * method:  hi_announcement
@@ -258,7 +258,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####法院公告
+#### 法院公告
 
 
 * method:  jr_courtAnnouncement
@@ -268,7 +268,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史法院公告
+#### 历史法院公告
 
 
 * method:  hi_court
@@ -278,7 +278,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####送达公告
+#### 送达公告
 
 
 * method:  jr_sendAnnouncement
@@ -288,7 +288,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####立案信息
+#### 立案信息
 
 
 * method:  jr_courtRegister
@@ -298,7 +298,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####司法协助
+#### 司法协助
 
 
 * method:  _services_v4_open_judicial
@@ -308,7 +308,7 @@
 * params ['name', 'id', 'keyword', 'pageNum', 'pageSize']
 
 
-#####司法协助详情
+#### 司法协助详情
 
 
 * method:  _services_v4_open_getJudicialDetail
@@ -318,7 +318,7 @@
 * params ['assistanceId']
 
 
-#####历史司法协助
+#### 历史司法协助
 
 
 * method:  hi_judicial
@@ -328,7 +328,7 @@
 * params ['name', 'id', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史司法协助详情
+#### 历史司法协助详情
 
 
 * method:  hi_judicial_detail
@@ -338,7 +338,7 @@
 * params ['businessId']
 
 
-#####破产重整
+#### 破产重整
 
 
 * method:  jr_bankruptcy
@@ -348,7 +348,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####破产重整详情
+#### 破产重整详情
 
 
 * method:  jr_bankruptcy_detail
@@ -358,7 +358,7 @@
 * params ['gid', 'uuid']
 
 
-#####被执行人
+#### 被执行人
 
 
 * method:  jr_zhixinginfo
@@ -368,7 +368,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史被执行人
+#### 历史被执行人
 
 
 * method:  hi_zhixing
@@ -378,7 +378,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####失信人
+#### 失信人
 
 
 * method:  jr_dishonest
@@ -388,7 +388,7 @@
 * params ['name', 'id', 'keyword', 'pageNum']
 
 
-#####历史失信人
+#### 历史失信人
 
 
 * method:  hi_dishonest
@@ -398,7 +398,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####限制消费令
+#### 限制消费令
 
 
 * method:  jr_consumptionRestriction
@@ -408,7 +408,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####终本案件
+#### 终本案件
 
 
 * method:  jr_endCase
@@ -418,7 +418,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####行政许可-工商局
+#### 行政许可-工商局
 
 
 * method:  m_getLicense
@@ -428,7 +428,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史行政许可-工商局
+#### 历史行政许可-工商局
 
 
 * method:  hi_license
@@ -438,7 +438,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####行政许可-其他来源
+#### 行政许可-其他来源
 
 
 * method:  m_getLicenseCreditchina
@@ -448,7 +448,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史行政许可-其他来源
+#### 历史行政许可-其他来源
 
 
 * method:  hi_license_creditChina
@@ -458,7 +458,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####抽查检查
+#### 抽查检查
 
 
 * method:  m_checkInfo
@@ -468,7 +468,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####双随机抽查
+#### 双随机抽查
 
 
 * method:  m_doubleRandomCheck
@@ -478,7 +478,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####双随机抽查详情
+#### 双随机抽查详情
 
 
 * method:  m_doubleRandomCheckDetail
@@ -488,7 +488,7 @@
 * params ['businessId', 'pageNum', 'pageSize']
 
 
-#####税务评级
+#### 税务评级
 
 
 * method:  m_taxCredit
@@ -498,7 +498,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####进出口信用
+#### 进出口信用
 
 
 * method:  m_importAndExport
@@ -508,7 +508,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####电信许可
+#### 电信许可
 
 
 * method:  m_teleCommunicationLicense
@@ -518,7 +518,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####资质证书
+#### 资质证书
 
 
 * method:  m_certificate
@@ -528,7 +528,7 @@
 * params ['id', 'name', 'pageNum', 'certificateName', 'pageSize']
 
 
-#####公告研报
+#### 公告研报
 
 
 * method:  m_announcementReport
@@ -538,7 +538,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'type', 'keyword']
 
 
-#####企业信用评级
+#### 企业信用评级
 
 
 * method:  m_creditRating
@@ -548,7 +548,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####一般纳税人
+#### 一般纳税人
 
 
 * method:  m_taxpayer
@@ -558,7 +558,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####债券信息
+#### 债券信息
 
 
 * method:  m_bond
@@ -568,7 +568,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####产品信息
+#### 产品信息
 
 
 * method:  m_appbkInfo
@@ -578,7 +578,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####购地信息
+#### 购地信息
 
 
 * method:  m_purchaseLand
@@ -588,7 +588,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####供应商
+#### 供应商
 
 
 * method:  m_supply
@@ -598,7 +598,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'year', 'keyword']
 
 
-#####客户
+#### 客户
 
 
 * method:  m_customer
@@ -608,7 +608,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'year', 'keyword']
 
 
-#####企业招聘
+#### 企业招聘
 
 
 * method:  m_employments
@@ -618,7 +618,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####企业招聘-百聘
+#### 企业招聘-百聘
 
 
 * method:  m_bp_employments
@@ -628,7 +628,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####企业微博
+#### 企业微博
 
 
 * method:  m_weibo
@@ -638,7 +638,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####企业微信公众号
+#### 企业微信公众号
 
 
 * method:  ipr_publicWeChat
@@ -648,7 +648,7 @@
 * params ['id', 'name', 'pageNum']
 
 
-#####企业招投标信息
+#### 企业招投标信息
 
 
 * method:  m_bids
@@ -658,7 +658,7 @@
 * params ['id', 'name', 'keyword', 'pageSize', 'pageNum', 'type', 'province', 'publishStartTime', 'publishEndTime']
 
 
-#####招投标信息垂搜
+#### 招投标信息垂搜
 
 
 * method:  m_bids_search
@@ -668,7 +668,7 @@
 * params ['keyword', 'searchType', 'publishStartTime', 'type', 'province', 'publishEndTime', 'pageNum', 'pageSize']
 
 
-#####地块公示
+#### 地块公示
 
 
 * method:  m_landPublicity
@@ -678,7 +678,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####地块公示详情
+#### 地块公示详情
 
 
 * method:  m_landPublicity_detail
@@ -688,7 +688,7 @@
 * params ['id']
 
 
-#####土地转让
+#### 土地转让
 
 
 * method:  m_landTransfer
@@ -698,7 +698,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####土地转让详情
+#### 土地转让详情
 
 
 * method:  m_landTransfer_detail
@@ -708,7 +708,7 @@
 * params ['id']
 
 
-#####行政处罚-工商局
+#### 行政处罚-工商局
 
 
 * method:  mr_punishmentInfo
@@ -718,7 +718,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史行政处罚-工商局
+#### 历史行政处罚-工商局
 
 
 * method:  hi_punishment
@@ -728,7 +728,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####行政处罚-其他来源
+#### 行政处罚-其他来源
 
 
 * method:  mr_creditChina
@@ -738,7 +738,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史行政处罚-其他来源
+#### 历史行政处罚-其他来源
 
 
 * method:  hi_punishment_creditChina
@@ -748,7 +748,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####欠税公告
+#### 欠税公告
 
 
 * method:  mr_ownTax
@@ -758,7 +758,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####税收违法
+#### 税收违法
 
 
 * method:  mr_taxContravention
@@ -768,7 +768,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####税收违法详情
+#### 税收违法详情
 
 
 * method:  mr_taxContravention_detail
@@ -778,7 +778,7 @@
 * params ['id']
 
 
-#####经营异常
+#### 经营异常
 
 
 * method:  mr_abnormal
@@ -788,7 +788,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史经营异常
+#### 历史经营异常
 
 
 * method:  hi_abnormal
@@ -798,7 +798,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####严重违法
+#### 严重违法
 
 
 * method:  mr_illegalinfo
@@ -808,7 +808,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####清算信息
+#### 清算信息
 
 
 * method:  mr_liquidating
@@ -818,7 +818,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####简易注销
+#### 简易注销
 
 
 * method:  mr_briefCancel
@@ -828,7 +828,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####询价评估
+#### 询价评估
 
 
 * method:  mr_inquiryEvaluation
@@ -838,7 +838,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####司法拍卖
+#### 司法拍卖
 
 
 * method:  mr_judicialSale
@@ -848,7 +848,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####公示催告
+#### 公示催告
 
 
 * method:  _services_v4_open_publicNotice
@@ -858,7 +858,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####动产抵押
+#### 动产抵押
 
 
 * method:  mr_mortgageInfo
@@ -868,7 +868,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史动产抵押
+#### 历史动产抵押
 
 
 * method:  hi_mortgageInfo
@@ -878,7 +878,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####土地抵押
+#### 土地抵押
 
 
 * method:  mr_landMortgage
@@ -888,7 +888,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####土地抵押详情
+#### 土地抵押详情
 
 
 * method:  mr_landMortgage_detail
@@ -898,7 +898,7 @@
 * params ['id']
 
 
-#####知识产权出质
+#### 知识产权出质
 
 
 * method:  _services_v4_open_getPledgeReg
@@ -908,7 +908,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####股权出质
+#### 股权出质
 
 
 * method:  mr_equityInfo
@@ -918,7 +918,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史股权出质
+#### 历史股权出质
 
 
 * method:  hi_equityInfo
@@ -928,7 +928,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####质押明细
+#### 质押明细
 
 
 * method:  mr_stockPledge_detailList
@@ -938,7 +938,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####质押明细详情
+#### 质押明细详情
 
 
 * method:  mr_stockPledge_detail
@@ -948,7 +948,7 @@
 * params ['businessId', 'id']
 
 
-#####重要股东质押
+#### 重要股东质押
 
 
 * method:  mr_stockPledge_shareholder
@@ -958,7 +958,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####重要股东质押详情
+#### 重要股东质押详情
 
 
 * method:  mr_stockPledge_shareholder_detail
@@ -968,7 +968,7 @@
 * params ['businessId', 'id']
 
 
-#####质押比例
+#### 质押比例
 
 
 * method:  mr_stockPledge_ratio
@@ -978,7 +978,7 @@
 * params ['id', 'name', 'date', 'keyword']
 
 
-#####质押走势
+#### 质押走势
 
 
 * method:  mr_stockPledge_trend
@@ -988,7 +988,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####企业商标信息
+#### 企业商标信息
 
 
 * method:  ipr_tm
@@ -998,7 +998,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize', 'tmClass', 'status', 'appDateBegin', 'appDateEnd']
 
 
-#####历史商标信息
+#### 历史商标信息
 
 
 * method:  hi_tm
@@ -1008,7 +1008,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####商标信息垂搜
+#### 商标信息垂搜
 
 
 * method:  ipr_tm_search
@@ -1018,7 +1018,7 @@
 * params ['keyword', 'searchType', 'tmClass', 'status', 'appDateBegin', 'appDateEnd', 'pageNum', 'pageSize']
 
 
-#####商标信息详情
+#### 商标信息详情
 
 
 * method:  ipr_tm_detail
@@ -1028,7 +1028,7 @@
 * params ['regNo', 'intCls']
 
 
-#####企业专利信息
+#### 企业专利信息
 
 
 * method:  ipr_patents
@@ -1038,7 +1038,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize', 'patentType', 'pubDateBegin', 'pubDateEnd', 'appDateBegin', 'appDateEnd']
 
 
-#####专利信息垂搜
+#### 专利信息垂搜
 
 
 * method:  ipr_patents_search
@@ -1048,7 +1048,7 @@
 * params ['keyword', 'searchType', 'patentType', 'pubDateBegin', 'pubDateEnd', 'appDateBegin', 'appDateEnd', 'pageNum', 'pageSize']
 
 
-#####软件著作权
+#### 软件著作权
 
 
 * method:  ipr_copyReg
@@ -1058,7 +1058,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####作品著作权
+#### 作品著作权
 
 
 * method:  ipr_copyRegWorks
@@ -1068,7 +1068,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####网站备案
+#### 网站备案
 
 
 * method:  ipr_icp_3.0
@@ -1078,7 +1078,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####历史网站备案
+#### 历史网站备案
 
 
 * method:  hi_icp
@@ -1088,7 +1088,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####人员控股企业
+#### 人员控股企业
 
 
 * method:  human_companyholding
@@ -1098,7 +1098,7 @@
 * params ['name', 'humanName', 'cid', 'hid', 'pageNum', 'pageSize']
 
 
-#####人员所有角色
+#### 人员所有角色
 
 
 * method:  _services_v4_open_roles
@@ -1108,7 +1108,7 @@
 * params ['name', 'humanName', 'cid', 'hid']
 
 
-#####人员所有公司
+#### 人员所有公司
 
 
 * method:  _services_v4_open_allCompanys
@@ -1118,7 +1118,7 @@
 * params ['name', 'humanName', 'cid', 'hid']
 
 
-#####人员所有合作伙伴
+#### 人员所有合作伙伴
 
 
 * method:  _services_v4_open_partners
@@ -1128,7 +1128,7 @@
 * params ['name', 'humanName', 'cid', 'hid']
 
 
-#####企业人员简介
+#### 企业人员简介
 
 
 * method:  _services_v4_open_description
@@ -1138,7 +1138,7 @@
 * params ['name', 'humanName', 'cid', 'hid']
 
 
-#####企业图谱
+#### 企业图谱
 
 
 * method:  _services_v4_open_oneKey_c
@@ -1148,7 +1148,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####股权结构图
+#### 股权结构图
 
 
 * method:  _services_v4_open_equityRatio
@@ -1158,7 +1158,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####股权穿透图
+#### 股权穿透图
 
 
 * method:  _services_v3_open_investtree
@@ -1168,7 +1168,7 @@
 * params ['id', 'flag', 'dir', 'name', 'keyword']
 
 
-#####最终受益人
+#### 最终受益人
 
 
 * method:  ic_humanholding
@@ -1178,7 +1178,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####实际控制权
+#### 实际控制权
 
 
 * method:  _services_v4_open_companyholding
@@ -1188,7 +1188,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####疑似实际控制人
+#### 疑似实际控制人
 
 
 * method:  ic_actualControl
@@ -1198,7 +1198,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####最短路径发现
+#### 最短路径发现
 
 
 * method:  rela_shortPath
@@ -1208,7 +1208,7 @@
 * params ['nameFrom', 'idFrom', 'nameTo', 'idTo', 'depth', 'types']
 
 
-#####新闻舆情
+#### 新闻舆情
 
 
 * method:  ps_news
@@ -1218,7 +1218,7 @@
 * params ['name', 'id', 'startTime', 'endTime', 'pageNum', 'pageSize', 'tags']
 
 
-#####企业天眼风险
+#### 企业天眼风险
 
 
 * method:  risk_riskInfo
@@ -1228,7 +1228,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####天眼地图
+#### 天眼地图
 
 
 * method:  _services_v4_open_proximity
@@ -1238,7 +1238,7 @@
 * params ['pageNum', 'pageSize', 'distance', 'longtitude', 'latitude', 'regStatus']
 
 
-#####人员天眼风险
+#### 人员天眼风险
 
 
 * method:  _services_v4_open_humanRiskInfo
@@ -1248,7 +1248,7 @@
 * params ['name', 'humanName', 'cid', 'hid']
 
 
-#####天眼风险详情
+#### 天眼风险详情
 
 
 * method:  _services_v4_open_riskDetail
@@ -1258,7 +1258,7 @@
 * params ['id', 'pageSize', 'pageNum', 'type']
 
 
-#####企业无水印logo
+#### 企业无水印logo
 
 
 * method:  _services_v4_open_logo
@@ -1268,7 +1268,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####验证企业
+#### 验证企业
 
 
 * method:  _services_v4_open_match
@@ -1278,7 +1278,7 @@
 * params ['name', 'keyword']
 
 
-#####企业经纬度
+#### 企业经纬度
 
 
 * method:  _services_v4_open_position
@@ -1288,7 +1288,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业曾用名
+#### 企业曾用名
 
 
 * method:  _services_v4_open_historyNames
@@ -1298,7 +1298,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####纳税人识别号
+#### 纳税人识别号
 
 
 * method:  _services_v4_open_taxesCode
@@ -1308,7 +1308,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####按行业/区域查询公司
+#### 按行业/区域查询公司
 
 
 * method:  _services_v4_open_searchV3
@@ -1318,7 +1318,7 @@
 * params ['word', 'pageNum', 'categoryGuobiao', 'areaCode']
 
 
-#####企业简介
+#### 企业简介
 
 
 * method:  _services_v4_open_profile
@@ -1328,7 +1328,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业信用报告（基础版）
+#### 企业信用报告（基础版）
 
 
 * method:  report_company_base
@@ -1338,7 +1338,7 @@
 * params ['id', 'name', 'uuid']
 
 
-#####企业信用报告（专业版）
+#### 企业信用报告（专业版）
 
 
 * method:  report_company_pro
@@ -1348,7 +1348,7 @@
 * params ['id', 'name', 'uuid']
 
 
-#####工商信息
+#### 工商信息
 
 
 * method:  cb_ic
@@ -1358,7 +1358,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####司法风险
+#### 司法风险
 
 
 * method:  cb_judicial
@@ -1368,7 +1368,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####知识产权
+#### 知识产权
 
 
 * method:  cb_ipr
@@ -1378,7 +1378,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####企业发展
+#### 企业发展
 
 
 * method:  cb_development
@@ -1388,7 +1388,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####历史信息
+#### 历史信息
 
 
 * method:  cb_history
@@ -1398,7 +1398,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####投资动态
+#### 投资动态
 
 
 * method:  _services_v4_open_investEvent
@@ -1408,7 +1408,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####融资历史
+#### 融资历史
 
 
 * method:  cd_findHistoryRongzi
@@ -1418,7 +1418,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####核心团队
+#### 核心团队
 
 
 * method:  cd_findTeamMember
@@ -1428,7 +1428,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####企业业务
+#### 企业业务
 
 
 * method:  cd_getProductInfo
@@ -1438,7 +1438,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####投资事件
+#### 投资事件
 
 
 * method:  cd_findTzanli
@@ -1448,7 +1448,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####竞品信息
+#### 竞品信息
 
 
 * method:  cd_findJingpin
@@ -1458,7 +1458,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####获取标签
+#### 获取标签
 
 
 * method:  cd_tags
@@ -1468,7 +1468,7 @@
 * params ['id']
 
 
-#####搜索项目品牌/投资机构
+#### 搜索项目品牌/投资机构
 
 
 * method:  cd_searchBrandAndAgency
@@ -1478,7 +1478,7 @@
 * params ['word']
 
 
-#####投资机构
+#### 投资机构
 
 
 * method:  cd_investOrg
@@ -1488,7 +1488,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####私募基金
+#### 私募基金
 
 
 * method:  cd_privateFund
@@ -1498,7 +1498,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####上市公司财务简析
+#### 上市公司财务简析
 
 
 * method:  _services_v4_open_financialAnalysis
@@ -1508,7 +1508,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####股票行情
+#### 股票行情
 
 
 * method:  stock_volatility
@@ -1518,7 +1518,7 @@
 * params ['name', 'id', 'keyword']
 
 
-#####上市公司企业简介
+#### 上市公司企业简介
 
 
 * method:  stock_companyInfo
@@ -1528,7 +1528,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####高管信息
+#### 高管信息
 
 
 * method:  stock_seniorExecutive
@@ -1538,7 +1538,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####参股控股
+#### 参股控股
 
 
 * method:  stock_holdingCompany
@@ -1548,7 +1548,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####上市公告
+#### 上市公告
 
 
 * method:  stock_announcement
@@ -1558,7 +1558,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####十大股东（十大流通股东）
+#### 十大股东（十大流通股东）
 
 
 * method:  stock_shareholder
@@ -1568,7 +1568,7 @@
 * params ['id', 'keyword', 'type', 'name', 'time']
 
 
-#####发行相关
+#### 发行相关
 
 
 * method:  stock_issueRelated
@@ -1578,7 +1578,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####股本结构
+#### 股本结构
 
 
 * method:  stock_shareStructure
@@ -1588,7 +1588,7 @@
 * params ['id', 'name', 'keyword', 'time']
 
 
-#####股本变动
+#### 股本变动
 
 
 * method:  stock_equityChange
@@ -1598,7 +1598,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####分红情况
+#### 分红情况
 
 
 * method:  stock_bonusInfo
@@ -1608,7 +1608,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####配股情况
+#### 配股情况
 
 
 * method:  stock_allotmen
@@ -1618,7 +1618,7 @@
 * params ['id', 'name', 'keyword', 'pageNum', 'pageSize']
 
 
-#####证券信息
+#### 证券信息
 
 
 * method:  stock_security
@@ -1628,7 +1628,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####重要人员
+#### 重要人员
 
 
 * method:  stock_corpBasicInfo
@@ -1638,7 +1638,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####联系信息
+#### 联系信息
 
 
 * method:  stock_corpContactInfo
@@ -1648,7 +1648,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####主要指标-年度
+#### 主要指标-年度
 
 
 * method:  stock_mainIndex
@@ -1658,7 +1658,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####主要指标-季度
+#### 主要指标-季度
 
 
 * method:  stock_quarMainIndex
@@ -1668,7 +1668,7 @@
 * params ['id', 'name', 'year', 'keyword']
 
 
-#####对外担保
+#### 对外担保
 
 
 * method:  stock_guarantees
@@ -1678,7 +1678,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####违规处理
+#### 违规处理
 
 
 * method:  stock_illegal
@@ -1688,7 +1688,7 @@
 * params ['id', 'name', 'pageNum', 'pageSize', 'keyword']
 
 
-#####利润表
+#### 利润表
 
 
 * method:  stock_profit
@@ -1698,7 +1698,7 @@
 * params ['id', 'name', 'year', 'keyword']
 
 
-#####资产负债表
+#### 资产负债表
 
 
 * method:  stock_balanceSheet
@@ -1708,7 +1708,7 @@
 * params ['id', 'name', 'year', 'keyword']
 
 
-#####现金流量表
+#### 现金流量表
 
 
 * method:  stock_cashFlow
@@ -1718,7 +1718,7 @@
 * params ['id', 'name', 'year', 'keyword']
 
 
-#####招股书
+#### 招股书
 
 
 * method:  stock_prospectus
@@ -1728,7 +1728,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####工商追踪
+#### 工商追踪
 
 
 * method:  oi_businessEvent
@@ -1738,7 +1738,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####相关新闻
+#### 相关新闻
 
 
 * method:  oi_news
@@ -1748,7 +1748,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####机构成员
+#### 机构成员
 
 
 * method:  oi_team
@@ -1758,7 +1758,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####公开投资事件
+#### 公开投资事件
 
 
 * method:  oi_publicInvest
@@ -1768,7 +1768,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####未公开投资
+#### 未公开投资
 
 
 * method:  oi_secretInvest
@@ -1778,7 +1778,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####管理基金
+#### 管理基金
 
 
 * method:  oi_funds
@@ -1788,7 +1788,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-##### 对外投资基金
+####  对外投资基金
 
 
 * method:  oi_extFunds
@@ -1798,7 +1798,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####基金管理人
+#### 基金管理人
 
 
 * method:  oi_fundManager
@@ -1808,7 +1808,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####投资动态
+#### 投资动态
 
 
 * method:  oi_investEvent
@@ -1818,7 +1818,7 @@
 * params ['name', 'pageNum', 'pageSize']
 
 
-#####统计分析
+#### 统计分析
 
 
 * method:  oi_stats
@@ -1828,7 +1828,7 @@
 * params ['name', 'year']
 
 
-#####机构信息
+#### 机构信息
 
 
 * method:  pf_orgInfo
@@ -1838,7 +1838,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####会员信息
+#### 会员信息
 
 
 * method:  pf_member
@@ -1848,7 +1848,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####法律意见书信息
+#### 法律意见书信息
 
 
 * method:  pf_legalOpinion
@@ -1858,7 +1858,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####高管信息
+#### 高管信息
 
 
 * method:  pf_boss
@@ -1868,7 +1868,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####高管情况
+#### 高管情况
 
 
 * method:  pf_staff
@@ -1878,7 +1878,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####产品信息
+#### 产品信息
 
 
 * method:  pf_product
@@ -1888,7 +1888,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####诚信信息
+#### 诚信信息
 
 
 * method:  pf_integrity
@@ -1898,7 +1898,7 @@
 * params ['id', 'name', 'keyword']
 
 
-#####建筑资质-资质资格
+#### 建筑资质-资质资格
 
 
 * method:  bq_qualification
@@ -1908,7 +1908,7 @@
 * params ['name', 'id', 'pageNum', 'pageSize', 'keyword']
 
 
-#####建筑资质-资质资格详情
+#### 建筑资质-资质资格详情
 
 
 * method:  bq_qualification_detail
@@ -1918,7 +1918,7 @@
 * params ['businessId']
 
 
-#####建筑资质-注册人员
+#### 建筑资质-注册人员
 
 
 * method:  bq_regHuman
@@ -1928,7 +1928,7 @@
 * params ['name', 'id', 'pageNum', 'pageSize', 'keyword']
 
 
-#####建筑资质-注册人员详情
+#### 建筑资质-注册人员详情
 
 
 * method:  bq_regHuman_detail
@@ -1938,7 +1938,7 @@
 * params ['businessId']
 
 
-#####建筑资质-工程项目
+#### 建筑资质-工程项目
 
 
 * method:  bq_project
@@ -1948,7 +1948,7 @@
 * params ['name', 'id', 'pageNum', 'pageSize', 'keyword']
 
 
-#####建筑资质-工程项目详情
+#### 建筑资质-工程项目详情
 
 
 * method:  bq_project_detail
@@ -1958,7 +1958,7 @@
 * params ['businessId', 'pageNum', 'pageSize']
 
 
-#####建筑资质-不良行为
+#### 建筑资质-不良行为
 
 
 * method:  bq_badConduct
@@ -1968,7 +1968,7 @@
 * params ['name', 'id', 'pageNum', 'pageSize', 'keyword']
 
 
-#####搜索
+#### 搜索
 
 
 * method:  search
