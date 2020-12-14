@@ -18,7 +18,7 @@ URL = 'https://github.com/iamsk/tianyancha'
 EMAIL = 'iamsk.info@gmail.com'
 AUTHOR = 'Bin'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -114,6 +114,7 @@ setup(
     # },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
+    package_data={'': ['tianyancha/apilist.json']},
     include_package_data=True,
     license='MIT',
     classifiers=[

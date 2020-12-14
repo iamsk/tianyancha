@@ -14,11 +14,11 @@ All API supported! please visit **[Supported methods](API.md)** for more informa
 
 ```python
 from tianyancha import Tianyancha
+
 token = "TOKEN"
 word = "北京百度网讯科技有限公司"
-
 tyc = Tianyancha(token)
-ret = tyc.search(word)
+ret = tyc.search(word=word)  # Limited to use `keyword arguments`
 ```
 
 ```json
