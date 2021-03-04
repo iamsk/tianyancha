@@ -1,4 +1,4 @@
-# tianyancha - 天眼查
+# tianyancha - 天眼查 API
 
 Tianyancha SDK for python, which based on https://open.tianyancha.com/
 
