@@ -9,7 +9,7 @@ import os
 import sys
 from shutil import rmtree
 
-from setuptools import find_packages, setup, Command
+from setuptools import Command, find_packages, setup
 
 # Package meta-data.
 NAME = 'tianyancha'
@@ -18,13 +18,14 @@ URL = 'https://github.com/iamsk/tianyancha'
 EMAIL = 'iamsk.info@gmail.com'
 AUTHOR = 'Bin'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.3'
+VERSION = '0.2.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
     'pytest>=3.6.4',
     'requests>=2.12.4',
     'retry>=0.9.2',
+    'python-dotenv>=1.0.1'
 ]
 
 # What packages are optional?

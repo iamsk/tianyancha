@@ -64,8 +64,17 @@ ret = tyc.search(word=word)  # Limited to use `keyword arguments`
 
 ## More usages
 
+Request APIs as below, they are equal:
+
 ```python
-ret = tyc.get('search/2.0', {'word': word})
+ret1 = tyc.get('ic/changeinfo/2.0', {'keyword': keyword})
+ret2 = tyc.ic_changeinfo(keyword=keyword)
+```
+
+Sync newest APIs from official website and update document.
+
+```shell
+python tianyancha/sync.py > API.md
 ```
 
 ## Tests
@@ -74,7 +83,8 @@ just run `pytest`
 
 ## Changelog
 
-* 2020-12-11 0.1.2 path bugfix and generate documents for all methods 
+* 2024-09-23 0.2.1 sync new methods from tianyancha.com
+* 2020-12-11 0.1.2 path bugfix and generate documents for all methods
 * 2020-12-11 0.1.1 support all methods
 * 2020-12-11 0.1.0 support basic search for tianyancha
 
